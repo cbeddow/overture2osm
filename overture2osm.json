@@ -5437,9 +5437,10 @@
     },
     "poke": {
         "osm_tags": [
-            "amenity=pub"
+            "amenity=restaurant",
+            "cuisine=poke"
         ],
-        "icon": "maki-beer",
+        "icon": "maki-restaurant",
         "pretty_name": "Poke"
     },
     "general_dentistry": {
@@ -5447,7 +5448,7 @@
             "amenity=dentist"
         ],
         "icon": "maki-dentist",
-        "pretty_name": "General Dentistry"
+        "pretty_name": "Dentist"
     },
     "southern_restaurant": {
         "osm_tags": [
