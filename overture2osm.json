@@ -3855,7 +3855,7 @@
     },
     "beer_garden": {
         "osm_tags": [
-            "amenity=pub"
+            "amenity=biergarten"
         ],
         "icon": "maki-beer",
         "pretty_name": "Beer Garden"
