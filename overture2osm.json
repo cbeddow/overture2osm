@@ -1845,7 +1845,7 @@
         "icon": "fas-ice-cream",
         "pretty_name": "Ice Cream Shop"
     },
-    "speciality_school": {
+    "specialty_school": {
         "osm_tags": [
             "amenity=school",
             "education=speciality"
@@ -6702,7 +6702,7 @@
         "icon": "maki-restaurant",
         "pretty_name": "Egyptian Restaurant"
     },
-    "speciality_grocery_store": {
+    "specialty_grocery_store": {
         "osm_tags": [
             "shop=supermarket"
         ],
@@ -13068,7 +13068,7 @@
         "icon": "temaki-campfire",
         "pretty_name": "Firewood"
     },
-    "speciality_foods": {
+    "specialty_foods": {
         "osm_tags": [
             "shop=deli"
         ],
