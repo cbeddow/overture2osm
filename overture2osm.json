@@ -1371,7 +1371,6 @@
     "train_station": {
         "osm_tags": [
             "public_transport=station",
-            "railway=station",
             "train=yes"
         ],
         "icon": "temaki-train",
@@ -1402,7 +1401,7 @@
     "steakhouse": {
         "osm_tags": [
             "amenity=restaurant",
-            "cuisine=steakhouse"
+            "cuisine=steak_house"
         ],
         "icon": "maki-restaurant",
         "pretty_name": "Steakhouse"
@@ -1546,7 +1545,6 @@
     },
     "brewery": {
         "osm_tags": [
-            "amenity=pub",
             "craft=brewery"
         ],
         "icon": "temaki-storage_fermenter",
@@ -2022,8 +2020,7 @@
     },
     "doctor": {
         "osm_tags": [
-            "amenity=doctors",
-            "healthcare=doctor"
+            "amenity=doctors"
         ],
         "icon": "maki-doctor",
         "pretty_name": "Doctor"
@@ -2066,7 +2063,8 @@
     },
     "tanning_salon": {
         "osm_tags": [
-            "shop=tanning"
+            "shop=beauty",
+            "beauty=tanning"
         ],
         "icon": "temaki-tanning",
         "pretty_name": "Tanning Salon"
@@ -3068,7 +3066,6 @@
     "orthodontist": {
         "osm_tags": [
             "healthcare=dentist",
-            "amenity=dentist",
             "healthcare:speciality=orthodontics"
         ],
         "icon": "fas-teeth",
@@ -3076,8 +3073,7 @@
     },
     "language_school": {
         "osm_tags": [
-            "amenity=school",
-            "education=language_school"
+            "amenity=language_school"
         ],
         "icon": "temaki-school",
         "pretty_name": "Language School"
@@ -4037,7 +4033,6 @@
     },
     "speech_therapist": {
         "osm_tags": [
-            "amenity=clinic",
             "healthcare=speech_therapist"
         ],
         "icon": "fas-comment",
@@ -4624,8 +4619,7 @@
     },
     "podiatrist": {
         "osm_tags": [
-            "healthcare=doctor",
-            "healthcare:speciality=podiatry"
+            "healthcare=podiatrist"
         ],
         "icon": "maki-doctor",
         "pretty_name": "Podiatrist"
@@ -4706,7 +4700,7 @@
     "surfing": {
         "osm_tags": [
             "leisure=sports_centre",
-            "sport-surfing"
+            "sport=surfing"
         ],
         "icon": "temaki-beach",
         "pretty_name": "Surfing"
@@ -4867,7 +4861,7 @@
     "irish_pub": {
         "osm_tags": [
             "amenity=pub",
-            "cuisine=irish"
+            "theme=irish"
         ],
         "icon": "maki-beer",
         "pretty_name": "Irish Pub"
@@ -5902,7 +5896,6 @@
     },
     "driving_range": {
         "osm_tags": [
-            "leisure=golf_course",
             "golf=driving_range"
         ],
         "icon": "maki-golf",
@@ -6325,8 +6318,8 @@
     },
     "bus_tours": {
         "osm_tags": [
-            "toffice=guide",
-            "guide-bus_tours"
+            "office=guide",
+            "guide=bus_tours"
         ],
         "icon": "temaki-bus",
         "pretty_name": "Bus Tours"
@@ -6644,6 +6637,7 @@
     "homeless_shelter": {
         "osm_tags": [
             "amenity=social_facility",
+            "social_facility=shelter",
             "social_facility:for=homeless"
         ],
         "icon": "temaki-bunk_beds",
@@ -6910,7 +6904,8 @@
     "abortion_clinic": {
         "osm_tags": [
             "amenity=clinic",
-            "healthcare=abortion"
+            "healthcare=clinic",
+            "healthcare:speciality=abortion"
         ],
         "icon": "maki-hospital",
         "pretty_name": "Abortion Clinic"
@@ -7417,7 +7412,6 @@
     },
     "photographer": {
         "osm_tags": [
-            "shop=photo",
             "craft=photographer"
         ],
         "icon": "fas-camera-retro",
@@ -8345,7 +8339,8 @@
     },
     "college_counseling": {
         "osm_tags": [
-            "office=educational_institution"
+            "office=educational_institution",
+            "education=college_counseling"
         ],
         "icon": "maki-school",
         "pretty_name": "College Counseling"
@@ -9318,7 +9313,7 @@
     "executive_search_consultants": {
         "osm_tags": [
             "office=consulting",
-            "consulting-executive_search"
+            "consulting=executive_search"
         ],
         "icon": "maki-suitcase",
         "pretty_name": "Executive Search Consultants"
@@ -10093,7 +10088,7 @@
     },
     "perfume_store": {
         "osm_tags": [
-            "shop=perfume"
+            "shop=perfumery"
         ],
         "icon": "temaki-perfume",
         "pretty_name": "Perfume Store"
@@ -10644,7 +10639,7 @@
     "clown": {
         "osm_tags": [
             "craft=actor",
-            "actor==clown"
+            "actor=clown"
         ],
         "icon": "maki-theatre",
         "pretty_name": "Clown"
@@ -10725,44 +10720,49 @@
     },
     "imported_food": {
         "osm_tags": [
-            "shop=deli"
+            "shop=food"
         ],
         "icon": "temaki-meat",
         "pretty_name": "Imported Food"
     },
     "b2b_dairies": {
         "osm_tags": [
-            "shop=dairy"
+            "shop=wholesale",
+            "wholesale=dairy"
         ],
         "icon": "fas-cheese",
         "pretty_name": "B2B Dairies"
     },
     "lingerie_wholesaler": {
         "osm_tags": [
-            "shop=wholesale"
+            "shop=wholesale",
+            "wholesale=lingerie"
         ],
-        "icon": "maki-warehouse",
+        "icon": "temaki-bikini",
         "pretty_name": "Lingerie Wholesaler"
     },
     "art_tours": {
         "osm_tags": [
-            "tourism=gallery"
+            "office=guide",
+            "guide=art_tours"
         ],
         "icon": "maki-art-gallery",
         "pretty_name": "Art Tours"
     },
     "fmcg_wholesaler": {
         "osm_tags": [
-            "shop=wholesale"
+            "shop=wholesale",
+            "wholesale=fast_moving_consumer_goods"
         ],
         "icon": "maki-warehouse",
-        "pretty_name": "Fmcg Wholesaler"
+        "pretty_name": "FMCG Wholesaler"
     },
     "childbirth_education": {
         "osm_tags": [
-            "healthcare=childbirth_education"
+            "office=educational_institution",
+            "education=childbirth_education"
         ],
-        "icon": "maki-doctor",
+        "icon": "fas-child-reaching",
         "pretty_name": "Childbirth Education"
     },
     "outdoor_movies": {
@@ -10782,7 +10782,7 @@
     },
     "typing_services": {
         "osm_tags": [
-            "shop=copyshop"
+            "office=typing_services"
         ],
         "icon": "fas-print",
         "pretty_name": "Typing Services"
@@ -10791,19 +10791,20 @@
         "osm_tags": [
             "healthcare=dental_hygienist"
         ],
-        "icon": "maki-doctor",
+        "icon": "maki-dentist",
         "pretty_name": "Dental Hygienist"
     },
     "bookmakers": {
         "osm_tags": [
             "shop=bookmaker"
         ],
-        "icon": "temaki-money_hand",
+        "icon": "maki-library",
         "pretty_name": "Bookmakers"
     },
     "foot_care": {
         "osm_tags": [
-            "healthcare=podiatrist"
+            "healthcare=doctor",
+            "healthcare:speciality=podiatry"
         ],
         "icon": "maki-hospital",
         "pretty_name": "Foot Care"
@@ -11083,7 +11084,7 @@
     },
     "electronics_repair_shop": {
         "osm_tags": [
-            "shop=electronics_repair"
+            "craft=electronics_repair"
         ],
         "icon": "fas-plug",
         "pretty_name": "Electronics Repair Shop"
@@ -11309,7 +11310,7 @@
     },
     "business_signage": {
         "osm_tags": [
-            "craft-signmaker"
+            "craft=signmaker"
         ],
         "icon": "temaki-billboard",
         "pretty_name": "Business Signage"
@@ -11748,10 +11749,9 @@
     },
     "trampoline_park": {
         "osm_tags": [
-            "leisure=sports_centre",
-            "sport=trampolining"
+            "leisure=trampoline_park"
         ],
-        "icon": "maki-pitch",
+        "icon": "fas-chevron-circle-up",
         "pretty_name": "Trampoline Park"
     },
     "sperm_clinic": {
@@ -11870,7 +11870,7 @@
     },
     "cannabis_tour": {
         "osm_tags": [
-            "toffice=guide",
+            "office=guide",
             "guide=cannabis_tour"
         ],
         "icon": "fas-cannabis",
@@ -13137,7 +13137,7 @@
     "criminal_deense_law": {
         "osm_tags": [
             "office=lawyer",
-            "lawyer=criminal"
+            "lawyer=criminal_defense"
         ],
         "icon": "fas-balance-scale",
         "pretty_name": "Criminal Defense Law"
@@ -13510,7 +13510,7 @@
     },
     "plaza": {
         "osm_tags": [
-            "leisure=common"
+            "place=square"
         ],
         "icon": "temaki-pedestrian",
         "pretty_name": "Plaza"
@@ -14462,7 +14462,7 @@
     "beach_volleyball_court": {
         "osm_tags": [
             "leisure=pitch",
-            "sport=beach_volleyball"
+            "sport=beachvolleyball"
         ],
         "icon": "maki-volleyball",
         "pretty_name": "Beach Volleyball Court"
