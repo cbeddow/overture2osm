@@ -66,7 +66,8 @@
     },
     "patisserie_cake_shop": {
         "osm_tags": [
-            "shop=pastry"
+            "shop=pastry",
+            "cuisine=cake"
         ],
         "icon": "maki-bakery",
         "pretty_name": "Patisserie Cake Shop"
@@ -95,9 +96,7 @@
     },
     "passport_and_visa_services": {
         "osm_tags": [
-            "office=government",
-            "office=visa",
-            "office=passport"
+            "office=passport_and_visa_services"
         ],
         "icon": "temaki-town_hall",
         "pretty_name": "Passport and Visa Services"
@@ -118,7 +117,7 @@
     },
     "sports_club_and_league": {
         "osm_tags": [
-            "sport=club"
+            "leisure=sports_club"
         ],
         "icon": "maki-pitch",
         "pretty_name": "Sports Club and League"
@@ -299,7 +298,7 @@
     "beauty_and_spa": {
         "osm_tags": [
             "shop=beauty",
-            "beauty=spa"
+            "leisure=spa"
         ],
         "icon": "temaki-beauty_salon",
         "pretty_name": "Beauty and Spa"
@@ -350,14 +349,15 @@
     },
     "coffee_shop": {
         "osm_tags": [
-            "amenity=cafe"
+            "amenity=cafe",
+            "cuisine=coffee_shop"
         ],
         "icon": "temaki-hot_drink_cup",
         "pretty_name": "Coffee Shop"
     },
     "religious_organization": {
         "osm_tags": [
-            "amenity=place_of_worship"
+            "office=religious_organization"
         ],
         "icon": "maki-place-of-worship",
         "pretty_name": "Religious Organization"
@@ -365,11 +365,10 @@
     "movie_television_studio": {
         "osm_tags": [
             "office=company",
-            "industry=television",
-            "industry=film"
+            "studio=video;television"
         ],
         "icon": "maki-suitcase",
-        "pretty_name": "Movie Television Studio"
+        "pretty_name": "Movie & Television Studio"
     },
     "cafe": {
         "osm_tags": [
@@ -404,7 +403,7 @@
             "healthcare=prenatal_perinatal_care"
         ],
         "icon": "maki-doctor",
-        "pretty_name": "Prenatal Perinatal Care"
+        "pretty_name": "Prenatal & Perinatal Care"
     },
     "web_designer": {
         "osm_tags": [
