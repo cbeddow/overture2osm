@@ -629,7 +629,7 @@
             "amenity=university"
         ],
         "icon": "maki-college",
-        "pretty_name": "College University"
+        "pretty_name": "University"
     },
     "real_estate_agent": {
         "osm_tags": [
