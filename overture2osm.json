@@ -876,7 +876,7 @@
             "shop=clothes"
         ],
         "icon": "fas-tshirt",
-        "pretty_name": "Women'S Clothing Store"
+        "pretty_name": "Women's Clothing Store"
     },
     "glass_and_mirror_sales_service": {
         "osm_tags": [
